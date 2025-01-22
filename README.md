@@ -1,0 +1,3 @@
+# Dangling Pointer and Improper Use of free() in C
+
+This repository demonstrates a common error in C programming involving the misuse of the `free()` function.  Attempting to free memory that was not dynamically allocated using `malloc`, `calloc`, or `realloc` results in undefined behavior and is a source of crashes and unpredictable program outcomes. The example showcases how to correctly manage dynamically allocated memory and what happens when it's not done properly. 
